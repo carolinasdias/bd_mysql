@@ -32,6 +32,8 @@ SELECT * FROM tb_funcionarios WHERE salario > 2000.00;
 
 SELECT * FROM tb_funcionarios WHERE salario > 2000.00;
 
+UPDATE tb_funcionarios SET salario = 4200.00 WHERE ID = 1;
+
 SELECT * FROM tb_funcionarios;
 
 DROP DATABASE db_rh
